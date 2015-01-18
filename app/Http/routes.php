@@ -17,8 +17,6 @@ if ( env('IMIN')) {
     Route::get('/', 'PagesController@welcome');
 }
 
-Route::get('comingsoon', 'PagesController@welcome');
-
 Route::get('services', 'PagesController@services');
 Route::get('policies', 'PagesController@policies');
 Route::get('vision', 'PagesController@vision');
