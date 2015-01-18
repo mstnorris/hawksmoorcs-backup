@@ -11,18 +11,12 @@
 |
 */
 
-//Route::get('/', 'PagesController@home');
-
-Route::get('/', function() {
-    dd('hawksmoor');
-});
-
-
 if ( env('IMIN')) {
     Route::get('/', 'PagesController@home');
 } else {
     Route::get('/', 'PagesController@welcome');
 }
+
 Route::get('services', 'PagesController@services');
 Route::get('policies', 'PagesController@policies');
 Route::get('vision', 'PagesController@vision');
