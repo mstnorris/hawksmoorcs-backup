@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace HawksmoorCS\Commands;
 
 abstract class Command {
 

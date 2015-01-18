@@ -26,7 +26,7 @@ return [
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://hawksmoorcs.co.uk',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'HawksmoorCS\Providers\AppServiceProvider',
+		'HawksmoorCS\Providers\BusServiceProvider',
+		'HawksmoorCS\Providers\ConfigServiceProvider',
+		'HawksmoorCS\Providers\EventServiceProvider',
+		'HawksmoorCS\Providers\RouteServiceProvider',
 
 	],
 

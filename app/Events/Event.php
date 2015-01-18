@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace HawksmoorCS\Events;
 
 abstract class Event {
 
