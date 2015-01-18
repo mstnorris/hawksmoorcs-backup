@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fa701db9cbe912949da2cd99e7d6aaea",
+    "hash": "57ad232d566568c7299401b584117d40",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -211,6 +211,52 @@
             "time": "2015-01-01 18:34:57"
         },
         {
+            "name": "illuminate/html",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/html.git",
+                "reference": "3d1009bb8e0f25720c914af5c1f4015dd373c9ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/html/zipball/3d1009bb8e0f25720c914af5c1f4015dd373c9ef",
+                "reference": "3d1009bb8e0f25720c914af5c1f4015dd373c9ef",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "~5.0",
+                "illuminate/session": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Html\\": ""
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2015-01-01 16:31:18"
+        },
+        {
             "name": "ircmaxell/password-compat",
             "version": "1.0.x-dev",
             "source": {
@@ -306,12 +352,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7e0a6472e7cfed16d3635b0da58d14f14a42c2a3"
+                "reference": "641b8a09fc7043b7d8ac5c66c7d99137c59b44d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7e0a6472e7cfed16d3635b0da58d14f14a42c2a3",
-                "reference": "7e0a6472e7cfed16d3635b0da58d14f14a42c2a3",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/641b8a09fc7043b7d8ac5c66c7d99137c59b44d5",
+                "reference": "641b8a09fc7043b7d8ac5c66c7d99137c59b44d5",
                 "shasum": ""
             },
             "require": {
@@ -417,7 +463,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-01-16 05:28:09"
+            "time": "2015-01-18 09:36:46"
         },
         {
             "name": "league/flysystem",
@@ -2016,12 +2062,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laracasts/Behat-Laravel-Extension.git",
-                "reference": "268a609b94ff69f5b41b29742264bbb08c13c9dd"
+                "reference": "d0125c9c2a87f00213017f3bf02508543fe31501"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laracasts/Behat-Laravel-Extension/zipball/268a609b94ff69f5b41b29742264bbb08c13c9dd",
-                "reference": "268a609b94ff69f5b41b29742264bbb08c13c9dd",
+                "url": "https://api.github.com/repos/laracasts/Behat-Laravel-Extension/zipball/d0125c9c2a87f00213017f3bf02508543fe31501",
+                "reference": "d0125c9c2a87f00213017f3bf02508543fe31501",
                 "shasum": ""
             },
             "require": {
@@ -2057,7 +2103,7 @@
                 "extension",
                 "laravel"
             ],
-            "time": "2015-01-17 01:11:23"
+            "time": "2015-01-17 19:43:59"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -2148,16 +2194,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "214e2b666c711373ea0c513ec403509f87c2e5c9"
+                "reference": "3b8bf83f08cbcb19bf89676f0ea682a5217c46a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/214e2b666c711373ea0c513ec403509f87c2e5c9",
-                "reference": "214e2b666c711373ea0c513ec403509f87c2e5c9",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/3b8bf83f08cbcb19bf89676f0ea682a5217c46a3",
+                "reference": "3b8bf83f08cbcb19bf89676f0ea682a5217c46a3",
                 "shasum": ""
             },
             "require": {
-                "doctrine/instantiator": "~1.0,>=1.0.1",
+                "doctrine/instantiator": "^1.0.1",
                 "php": ">=5.3.3",
                 "phpspec/php-diff": "~1.0.0",
                 "phpspec/prophecy": "~1.1",
@@ -2169,7 +2215,7 @@
                 "symfony/yaml": "~2.1"
             },
             "require-dev": {
-                "behat/behat": "~3.0,>=3.0.11",
+                "behat/behat": "^3.0.11",
                 "bossa/phpspec2-expect": "~1.0",
                 "symfony/filesystem": "~2.1"
             },
@@ -2216,7 +2262,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2015-01-13 15:44:25"
+            "time": "2015-01-18 11:31:05"
         },
         {
             "name": "phpspec/prophecy",
@@ -2599,12 +2645,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "b8b8772521ce1fe61f878dce003d42a2a93da3ff"
+                "reference": "b752b41e3fead4feee99f3a2f2972cef517abb8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/b8b8772521ce1fe61f878dce003d42a2a93da3ff",
-                "reference": "b8b8772521ce1fe61f878dce003d42a2a93da3ff",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/b752b41e3fead4feee99f3a2f2972cef517abb8b",
+                "reference": "b752b41e3fead4feee99f3a2f2972cef517abb8b",
                 "shasum": ""
             },
             "require": {
@@ -2646,7 +2692,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-01-16 06:47:20"
+            "time": "2015-01-18 10:44:19"
         },
         {
             "name": "sebastian/comparator",
@@ -3333,6 +3379,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "illuminate/html": 20,
         "behat/behat": 20,
         "behat/mink": 20,
         "behat/mink-extension": 20,

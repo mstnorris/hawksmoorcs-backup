@@ -11,18 +11,18 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 240px;
+  margin-bottom: 320px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 240px;
+  height: 320px;
 }
 
 body > .container {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 p.lead {
@@ -375,16 +375,16 @@ p.lead {
 //##
 
 // Basics of a navbar
-@navbar-height:                    70px;
+@navbar-height:                    100px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor((@grid-gutter-width / 2));
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
-@navbar-collapse-max-height:       340px;
+@navbar-collapse-max-height:       320px;
 
 @navbar-default-color:             @hcs-text-color; //#777;
 @navbar-default-bg:                @hcs-background-color; //#f8f8f8;
-@navbar-default-border:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-border:            lighten(@navbar-default-bg, 6.5%);
 
 // Navbar links
 @navbar-default-link-color:                @hcs-text-color; //#777;
