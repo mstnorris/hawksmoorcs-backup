@@ -36,11 +36,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
         <h2>Contact</h2>
     </div>
 	<div class="row">
-        <div class="col-md-9">
+        <div class="col-md-9 col-sm-9 col-xs-12">
             <div id="map-canvas"></div>
     	</div>
 
-      	<div class="col-md-3">
+      	<div class="col-md-3 col-sm-3 col-xs-12">
     		<address>
                 <strong>
                     Hawksmoor Construction<br />
