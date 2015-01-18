@@ -1,26 +1,26 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <span class="text-muted">&copy; 2014 Hawksmoor Construction<br />Services Limited</span>
+            <div class="col-md-5">
+                <span class="text-muted">&copy; {{ date('Y') }} Hawksmoor Construction Services Limited</span>
+            </div>
+            {{--<div class="col-md-2">--}}
+                {{--<a href="#" class="text-muted">Site Map</a><br />--}}
+                {{--<a href="#" class="text-muted">News</a><br />--}}
+                {{--<a href="#" class="text-muted">Privacy</a><br />--}}
+                {{--<a href="#" class="text-muted">Terms</a><br />--}}
+            {{--</div>--}}
+            <div class="col-md-2">
+                <a href="/about" class="text-muted">About</a><br />
+                <a href="/contact" class="text-muted">Contact</a><br />
+                {{--<a href="/careers" class="text-muted">Careers</a><br />--}}
+                {{--<a href="#" class="text-muted">Settings</a><br />--}}
             </div>
             <div class="col-md-2">
-                <a href="#" class="text-muted">Site Map</a><br />
-                <a href="#" class="text-muted">News</a><br />
-                <a href="#" class="text-muted">Privacy</a><br />
-                <a href="#" class="text-muted">Terms</a><br />
-            </div>
-            <div class="col-md-2">
-                <a href="#" class="text-muted">About</a><br />
-                <a href="#" class="text-muted">Contact</a><br />
-                <a href="#" class="text-muted">Careers</a><br />
-                <a href="#" class="text-muted">Settings</a><br />
-            </div>
-            <div class="col-md-2">
-                <a href="#" class=text-muted"><i class="fa fa-facebook fa-fw"></i>&nbsp;Facebook</a><br />
-                <a href="#" class=text-muted">Twitter</a><br />
-                <a href="#" class=text-muted">Google</a><br />
-                <a href="#" class=text-muted">LinkedIn</a><br />
+                <a href="https://www.facebook.com/hawksmoorcs" class=text-muted">Facebook</a><br />
+                <a href="https://twitter.com/hawksmoorcs" class=text-muted">Twitter</a><br />
+                {{--<a href="#" class=text-muted">Google</a><br />--}}
+                {{--<a href="#" class=text-muted">LinkedIn</a><br />--}}
             </div>
             <div class="row">
                 <div class="col-md-3">
