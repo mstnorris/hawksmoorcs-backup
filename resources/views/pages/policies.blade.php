@@ -15,7 +15,7 @@
         We have copies of both our Policy Manual and Procedures Manual available for customers to read at any time and when requested.
         We shall review this policy regularly to ensure its continued suitably and in-line with our commitment to continual improvement.
     </p>
-    <h2>Environmental Policy</h2>
+    <h3>Environmental Policy</h3>
     <p class="lead text-justify">
         Hawksmoor Construction Services Ltd has defined this Environmental Policy and we recognize that our activities may have wide-ranging environmental implications that can potentially be either damaging or beneficial.
         It is therefore our policy to comply with all applicable legislation and any other requirements; establishing and continuously improving upon the best environmental practices.
@@ -26,7 +26,7 @@
         We will consider the re—use and repair of equipment rather than the replacement and all equipment requiring replacement will be examined for the possibility of separating recyclable materials. 
         We shall display this policy in a prominent position within our organisation and shall review this policy annually to ensure its continuing suitability.
     </p>
-    <h2>Health & Safety Policy</h2>
+    <h3>Health & Safety Policy</h3>
     <p class="lead text-justify">
         Hawksmoor Construction Services Limited (HCS) recognises that good health and safety procedures and practices at work lead to the prevention of accidents and ill health. It is therefore a primary duty of all Directors, Managers, Supervisors and staff to maintain high levels of Health & Safety management.
         Accordingly, the Company is determined to ensure that it complies with the requirements of the Health and Safety at Work etc. Act 1974 and with the requirements of all other relevant legislation.

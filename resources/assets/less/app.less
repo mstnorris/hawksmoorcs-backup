@@ -59,9 +59,9 @@ p.lead {
 @text-color:            @hcs-text-color;
 
 //** Global textual link color.
-@link-color:            @brand-primary;
+@link-color:            @hcs-text-color;
 //** Link hover color set via `darken()` function.
-@link-hover-color:      darken(@link-color, 15%);
+@link-hover-color:      lighten(@link-color, 15%);
 //** Link hover decoration.
 @link-hover-decoration: underline;
 
@@ -865,7 +865,7 @@ p.lead {
 //** Horizontal offset for forms and lists.
 @component-offset-horizontal: 180px;
 //** Text muted color
-@text-muted:                  @gray-lighter;
+@text-muted:                  @gray-light;
 //** Abbreviations and acronyms border color
 @abbr-border-color:           @gray-light;
 //** Headings small color
