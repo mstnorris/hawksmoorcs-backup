@@ -24,7 +24,7 @@
                 {{--<a href="#" class=text-muted">LinkedIn</a><br />--}}
             </div>
             <div class="row">
-                <div class="col-md-3 col-xs-hidden">
+                <div class="col-md-3 hidden-xs">
                     <address>
                         <strong>
                             Hawksmoor Construction<br />
