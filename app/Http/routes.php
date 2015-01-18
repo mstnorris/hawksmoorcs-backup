@@ -12,8 +12,9 @@
 */
 
 //Route::get('/', 'PagesController@home');
+
 Route::get('/', function() {
-    return 'hawksmoor';
+    dd('hawksmoor');
 });
 
 
